@@ -1,0 +1,278 @@
+\documentclass[a4paper,12pt,openright,twoside]{book}
+%\documentclass[a4paper,12pt,openany,oneside]{book}
+
+% PACOTES OBRIGATÓRIOS
+
+% Use estes pacotes para poder digitar diretamente as letras com acento
+% e para que a hifenização funcione corretamente
+\usepackage[utf8]{inputenc}
+\usepackage{ae}
+% Para usar fontes standard ao invés das do LaTeX (gera melhores PDFs)
+\usepackage{pslatex}
+% Para a hifenização em português
+\usepackage[portuges, brazil]{babel}
+% Para que os primeiros parágrafos das seções também sejam indentados
+\usepackage{indentfirst}
+% Para poder incluir gráficos (figuras)
+\usepackage{graphicx}
+% Para poder fazer glossário ou lista de símbolos
+% Use a segunda opção se quiser incluir na definição do símbolo a
+% página e/ou a equação onde ela foi definida
+%ccze \usepackage[portuguese,noprefix]{nomencl}
+%\usepackage[portuguese,noprefix,refeq,refpage]{nomencl}
+% Para permitir espaçamento simples, 1 1/2 e duplo
+%ccze \usepackage{setspace}
+% Para usar alguns comandos matemáticos avançados muito úteis
+\usepackage{amsmath}
+% Para poder usar o ambiente "comment"
+\usepackage{verbatim}
+% Para poder ter tabelas com colunas de largura auto-ajustável
+\usepackage{tabularx}
+% Para executar um comando depois do fim da página corrente
+\usepackage{afterpage}
+% Para formatar URLs (endereços da Web)
+\usepackage{url}
+% Para reduzir os espaços entre os ítens (itemize, enumerate, etc.)
+% Este pacote não faz parte da distribuição padrão do LaTeX.
+\usepackage{lib/noitemsep}
+% Para as citações bibliográficas
+%\usepackage[alf]{abntex2cite}
+\usepackage[abbr]{lib/harvard}	% As chamadas são sempre abreviadas
+%\harvardparenthesis{square}	% Colchetes nas chamadas
+%\harvardyearparenthesis{round}	% Parêntesis nos anos das referências
+%\renewcommand{\harvardand}{e}	% Substituir "&" por "e" nas referências
+
+% PACOTES OPCIONAIS
+
+% Para poder incluir arquivos Postscript com cores (do Xfig, por exemplo)
+\usepackage{color}
+% Para ter células em tabelas que ocupam mais de uma linha
+%ccze \usepackage{multirow}
+% Para poder ter tabelas longas em mais de uma página
+%\usepackage{longtable}
+% Para poder escrever partes do texto em "n" colunas
+%\usepackage{multicol}
+% Se você quiser personalizar os cabeçalhos das páginas
+%\usepackage{fancyheadings}
+% Para incluir algoritmos e listagens de códigos
+%\usepackage{listings}
+% Para incluir pseudocódigos
+%ccze \usepackage[portuguese, ruled, linesnumbered]{algorithm2e}
+% Capítulos com títulos em um formato "decorado"
+\usepackage{lib/capitulos}
+% Hiperreferências dentro do texto e montagem dos links do índices dos
+% para os leitores de pdf (deve ser o último pacote a ser inserido).
+\usepackage[breaklinks]{hyperref}
+% Referência correta de ambientes flutuantes (como figuras, tabelas e algoritmos).
+\usepackage[all]{hypcap}
+
+
+
+% NOVOS COMANDOS
+
+% As definições dos novos comandos estão agrupadas no arquivo "comandos.tex"
+% Esta separação é opcional: se você preferir, pode por as definições
+% diretamente neste arquivo
+\input{lib/comandos.tex}
+
+%
+% As margens
+%
+
+% Direção horizontal
+
+% Margem interna
+% Nas páginas ímpares
+\setlength{\oddsidemargin}{3.5cm}         % Margem real desejada
+% Nas páginas pares
+\setlength{\evensidemargin}{2.5cm}        % Margem real desejada
+% Largura do texto
+\setlength{\textwidth}{15cm}
+% As margens laterais no LaTeX são sempre 1 polegada maiores do que as
+% fixadas. Se foi fixada \setlength{\oddsidemargin}{3.5cm}, a margem
+% real seria de 3.5+2.54=6.04cm. Para permitir que você não tenha que
+% fazer esta conta, pode usar o número desejado nas linhas anteriores
+% e a gente subtrai 1in nas próximas linhas
+\addtolength{\oddsidemargin}{-1in}
+\addtolength{\evensidemargin}{-1in}
+% Note que a margem direita não é fixada diretamente:
+% ela é obtida subtraindo-se os outros valores da largura da página.
+% 3.5+15+x=21cm (largura A4) -> x = margem externa = 2.5cm
+
+% Direção vertical
+
+% Margem superior (entre o topo da folha e o cabeçalho), altura do
+% cabeçalho e distância entre o fim do cabeçalho e o início do texto
+\setlength{\topmargin}{2.0cm}             % Margem real desejada
+\setlength{\headheight}{1.0cm}
+\setlength{\headsep}{1.0cm}
+% Altura do texto (sem cabeçalho e rodapé)
+\setlength{\textheight}{22.7cm}
+% Distância do fim do texto ao rodapé
+\setlength{\footskip}{1.0cm}
+% A margem superior no LaTeX é sempre 1 polegada maior do que a
+% fixada. Se foi fixada \setlength{\topmargin}{2.0cm}, a margem
+%real seria de 2.0+2.54=4.54cm. Para permitir que você não tenha que
+% fazer esta conta, pode usar o número desejado na linha anterior
+% e a gente subtrai 1in na próxima linha
+\addtolength{\topmargin}{-1in}
+% Note que a margem inferior não é fixada diretamente:
+% ela é obtida subtraindo-se os outros valores, sem incluir o
+% "footskip", da altura da página.
+% 2.0+1.0+1.0+22.7+x=29.7cm (altura A4) -> x = margem inferior = 3cm
+
+%
+% O estilo das referências bibliográficas
+%
+
+\bibliographystyle{bibliografia/ppgee}
+
+%
+% O espaçamento entre linhas
+%
+
+% As páginas iniciais são sempre em espaçamento simples
+%ccze \singlespacing
+
+% Para a criação do glossário (ou lista de símbolos)
+%ccze \makenomenclature
+
+% Lista de arquivos a serem processados. Estes comandos "includeonly" são
+% dispensáveis e devem obrigatoriamente ser comentados na hora de gerar o
+% documento definitivo. Eles servem para compilar apenas parte do documento.
+% É útil, durante a redação, para que não se tenha de compilar todo o
+% documento a cada vez que se faz uma alteração. Por exemplo, se eu estou
+% fazendo alterações na dedicatória e as outras partes não têm interesse no
+% momento, posso incluir (descomentar) a linha "\includeonly{preambulo}"
+%\includeonly{rosto}
+%\includeonly{catalograficos}
+%\includeonly{preambulo}
+%\includeonly{resumos}
+%\includeonly{introducao/introducao}
+%\includeonly{estilo/estilo}
+%\includeonly{matematica/matematica}
+%\includeonly{figuras/figuras}
+%\includeonly{conclusao/conclusao}
+%\includeonly{apendice/apendice}
+%ccze 
+%ccze % Inicia o texto
+%ccze \begin{document}
+%ccze 
+%ccze % Paginas iniciais (sem numeração)
+%ccze \pagestyle{empty}
+%ccze 
+%ccze % Página de rosto (capa interna)
+%ccze \include{pre-textuais/rosto}
+%ccze 
+%ccze % Ficha catalográfica: os dados catalográficos devem ser fornecidos
+%ccze % pela BCZM.
+%ccze % Só são incluídos na versão final da tese ou dissertação. Não são
+%ccze % incluídos nem na proposta de tema de qualificação nem na versão
+%ccze % preliminar da tese ou dissertação: nestes casos, comente a próxima linha.
+%ccze \include{pre-textuais/catalograficos}
+%ccze 
+%ccze % Assinaturas da banca, dedicatória e agradecimentos
+%ccze % Só são incluídos na versão final da tese ou dissertação. Não são
+%ccze % incluídos nem na proposta de tema de qualificação nem na versão
+%ccze % preliminar da tese ou dissertação: nestes casos, comente a próxima linha.
+%ccze \include{pre-textuais/preambulo}
+%ccze 
+%ccze %
+%ccze % O espaçamento entre linhas (ATENÇÃO A ESTA PARTE!)
+%ccze %
+%ccze %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ccze % PARA A VERSÃO FINAL:
+%ccze % Deve ser usado espaçamento simples nas páginas de texto
+%ccze \singlespacing
+%ccze % PARA A QUALIFICAÇÃO E PARA A VERSÃO INICIAL:
+%ccze % Deve ser usado espaçamento 1 1/2 nas páginas de texto
+%ccze %\doublespacing
+%ccze %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ccze 
+%ccze % Resumo/Abstract
+%ccze \include{pre-textuais/resumos}
+%ccze 
+%ccze % Paginas introdutórias (com numeração romana)
+%ccze \frontmatter
+%ccze 
+%ccze % Lista de conteúdo (sumário, gerado automaticamente)
+%ccze % Aqui, e em todos os itens antes da introdução, o comando \phantomsection é utilizado.
+%ccze % O seu uso é neecssário para auxiliar o pacote "hyperref" a fazer a referência correta
+%ccze % dos links do sumário, das listas (de tabelas, figuras, algoritmos) com as páginas 
+%ccze % respectivas.
+%ccze % Caso seja tirado, o "hyperref" irá apontar o link do sumário para o abstract, o link
+%ccze % do sumário para a lista de figuras, o link das listas de figuras para a lista de tabelas,
+%ccze % e assim sucessivamente.
+%ccze \phantomsection
+%ccze \addcontentsline{toc}{chapter}{Sumário}
+%ccze \tableofcontents
+%ccze 
+%ccze % Lista de figuras (gerada automaticamente)
+%ccze \cleardoublepage
+%ccze \phantomsection
+%ccze \addcontentsline{toc}{chapter}{Lista de Figuras}
+%ccze \listoffigures
+%ccze 
+%ccze % Lista de tabelas (gerada automaticamente)
+%ccze \cleardoublepage
+%ccze \phantomsection
+%ccze \addcontentsline{toc}{chapter}{Lista de Tabelas}
+%ccze \listoftables
+%ccze 
+%ccze % Glossário (gerado automaticamente - veja entradas em
+%ccze % tex/00-introducao/introducao.tex e em tex/02-estilo/estilo.tex)
+%ccze \cleardoublepage
+%ccze \phantomsection
+%ccze \renewcommand{\nomname}{Lista de Símbolos e Abreviaturas}
+%ccze \markboth{\MakeUppercase{\nomname}}{\MakeUppercase{\nomname}}
+%ccze \addcontentsline{toc}{chapter}{\nomname}
+%ccze % O argumento opcional do comando \printnomenclature é a largura deixada
+%ccze % para os símbolos no glossário. Se seus símbolos são "largos", como
+%ccze % neste exemplo,  é melhor por mais espaço do que o 1cm que é reservado
+%ccze % por default
+%ccze \printnomenclature[1.5cm]
+%ccze 
+%ccze % Páginas do texto principal (com cabeçalho)
+%ccze \mainmatter
+%ccze \pagestyle{headings}
+%ccze 
+%ccze % Para facilitar a organização, foi criado um diretório para cada
+%ccze % capítulo do documento, pois assim os arquivos das figuras ficam
+%ccze % classificados por capítulos
+%ccze 
+%ccze % Cap. 1 - Introdução
+%ccze \include{textuais/01-introducao/introducao}
+%ccze 
+%ccze % Cap. 2 - Teoria (Referencial Teórico)
+%ccze \include{textuais/02-teoria/teoria}
+%ccze 
+%ccze % Cap. 3 - Trabalhos Relacionados
+%ccze \include{textuais/03-trabalhos_relacionados/trabalhos_relacionados}
+%ccze 
+%ccze % Cap. 4 - Problema
+%ccze \include{textuais/04-problema/problema}
+%ccze 
+%ccze % Cap. 5 - Implementação
+%ccze \include{textuais/05-implementacao/implementacao}
+%ccze 
+%ccze % Cap. 6 - Experimentos e Resultados
+%ccze \include{textuais/06-experimentos_e_resultados/experimentos_e_resultados}
+%ccze 
+%ccze % Cap. 7 - Conclusão
+%ccze \include{textuais/07-conclusao/conclusao}
+%ccze 
+%ccze % Referências bibliogáficas (geradas automaticamente)
+%ccze % Aqui, o comando \phantomsection é utilizado para auxiliar o pacote "hyperref" a fazer a
+%ccze % referência correta dos links das referências bibliográficas com a página respectiva.
+%ccze % Caso seja tirado, o "hyperref" irá apontar o link das referências bibliográficas para a
+%ccze % última subseção da conclusão.
+%ccze \phantomsection
+%ccze \addcontentsline{toc}{chapter}{Referências bibliográficas}
+%ccze \bibliography{bibliografia/bibliografia}
+%ccze 
+%ccze \appendix
+
+%ccze %Apêndice A
+%ccze \include{textuais/apendice/apendice}
+
+\end{document}
