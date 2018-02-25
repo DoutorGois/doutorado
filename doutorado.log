@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  23 FEB 2018 08:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  24 FEB 2018 11:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **doutorado.tex
 (./doutorado.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 4 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -422,269 +422,51 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 \openout2 = `pre-textuais/rosto.aux'.
 
- (./pre-textuais/rosto.tex
-./pre-textuais/rosto.tex:17: Missing number, treated as zero.
-<to be read again> 
-                   @
-l.17 \begin{tabularx}{@{}l@{}c@{}r@{}}
-                                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./pre-textuais/rosto.tex:17: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   @
-l.17 \begin{tabularx}{@{}l@{}c@{}r@{}}
-                                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-./pre-textuais/rosto.tex:23: Package array Error:  Illegal pream-token (\parbox): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./pre-textuais/rosto.tex:23: Extra alignment tab has been changed to \cr.
+ (./pre-textuais/rosto.tex (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+./pre-textuais/rosto.tex:16: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.23 \end{tabularx}
-                   
+l.16 		\end{tabularx}
+                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./pre-textuais/rosto.tex:23: LaTeX Error: Something's wrong--perhaps a missing \item.
+./pre-textuais/rosto.tex:16: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.16 		\end{tabularx}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./pre-textuais/rosto.tex:23: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./pre-textuais/rosto.tex:23: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./pre-textuais/rosto.tex:23: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./pre-textuais/rosto.tex:23: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./pre-textuais/rosto.tex:23: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./pre-textuais/rosto.tex:23: Missing } inserted.
-<inserted text> 
-                }
-l.23 \end{tabularx}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./pre-textuais/rosto.tex:23: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.23 \end{tabularx}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pre-textuais/rosto.tex:23: Incompatible list can't be unboxed.
-\bm@s ->\unhbox \@tempboxa 
-                           
-l.23 \end{tabularx}
-                   
-Sorry, Pandora. (You sneaky devil.)
-I refuse to unbox an \hbox in vertical mode or vice versa.
-And I can't open any boxes in math mode.
-
-./pre-textuais/rosto.tex:23: Missing } inserted.
-<inserted text> 
-                }
-l.23 \end{tabularx}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./pre-textuais/rosto.tex:23: Extra }, or forgotten \endgroup.
-\TX@trial ...er \tabular \the \toks@ \endtabular }
-                                                  \TX@ckpt \TX@typeout@ {\@s...
-l.23 \end{tabularx}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./pre-textuais/rosto.tex:23: Undefined control sequence.
-\TX@trial ...ar \the \toks@ \endtabular }\TX@ckpt 
-                                                  \TX@typeout@ {\@spaces \ex...
-l.23 \end{tabularx}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./pre-textuais/rosto.tex:23: Package array Error:  Illegal pream-token (\inputencoding): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (12.0pt too wide) in alignment at lines 23--23
-[] 
- []
-
-./pre-textuais/rosto.tex:23: Extra }, or forgotten \endgroup.
-\TX@endtabularx ... }\the \TX@ftn \ifnum 0=`{\fi }
-                                                  \expandafter \expandafter ...
-l.23 \end{tabularx}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-./pre-textuais/rosto.tex:23: LaTeX Error: \begin{center} on input line 8 ended by \end{tabularx}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \end{tabularx}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./pre-textuais/rosto.tex:84: LaTeX Error: \begin{titlepage} on input line 6 ended by \end{center}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \end{center}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+./pre-textuais/rosto.tex:16: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.16 		\end{tabularx}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-./pre-textuais/rosto.tex:86: LaTeX Error: \begin{document} ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 \end{titlepage}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./pre-textuais/rosto.tex:86: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.86 \end{titlepage}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-) (./doutorado.aux (./pre-textuais/rosto.aux)) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./doutorado.aux (./pre-textuais/rosto.aux)) ) 
 Here is how much of TeX's memory you used:
- 1327 strings out of 494929
- 14389 string characters out of 6180142
- 64617 words of memory out of 5000000
- 4635 multiletter control sequences out of 15000+600000
- 11955 words of font info for 45 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
- 27i,9n,24p,226b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on doutorado.pdf (1 page, 38492 bytes).
+ 1305 strings out of 494953
+ 14103 string characters out of 6180977
+ 64527 words of memory out of 5000000
+ 4606 multiletter control sequences out of 15000+600000
+ 8285 words of font info for 32 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,8n,24p,226b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on doutorado.pdf (1 page, 9343 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
