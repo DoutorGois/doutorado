@@ -1,11 +1,8 @@
 # Comentário
 
-default: pdflatex
+default: all
 
 all: pdf nomenclature bibtex
-
-pdflatex:
-	pdflatex -synctex=1 -interaction=nonstopmode main.tex
 
 pdf:
 	pdflatex main.tex

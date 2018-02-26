@@ -1,0 +1,4 @@
+\select@language {brazil}
+\contentsline {chapter}{Sum\IeC {\'a}rio}{i}
+\contentsline {chapter}{Lista de Figuras}{iii}
+\contentsline {chapter}{Lista de Tabelas}{v}
