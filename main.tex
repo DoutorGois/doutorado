@@ -178,20 +178,20 @@
 \pagestyle{empty}
 
 % Página de rosto (capa interna)
-\include{tex/00-estrutural/rosto}
+%\include{tex/00-estrutural/rosto}
 
 % Ficha catalográfica: os dados catalográficos devem ser fornecidos
 % pela BCZM.
 % Só são incluídos na versão final da tese ou dissertação. Não são
 % incluídos nem na proposta de tema de qualificação nem na versão
 % preliminar da tese ou dissertação: nestes casos, comente a próxima linha.
-\include{tex/00-estrutural/catalograficos}
+%\include{tex/00-estrutural/catalograficos}
 
 % Assinaturas da banca, dedicatória e agradecimentos
 % Só são incluídos na versão final da tese ou dissertação. Não são
 % incluídos nem na proposta de tema de qualificação nem na versão
 % preliminar da tese ou dissertação: nestes casos, comente a próxima linha.
-\include{tex/00-estrutural/preambulo}
+%\include{tex/00-estrutural/preambulo}
 
 %
 % O espaçamento entre linhas
@@ -205,36 +205,36 @@
 %\onehalfspacing
 
 % Resumo/Abstract
-\include{tex/00-estrutural/resumos}
+%\include{tex/00-estrutural/resumos}
 
 % Paginas introdutórias (com numeração romana)
 \frontmatter
 
 % Lista de conteúdo (sumário, gerado automaticamente)
-\addcontentsline{toc}{chapter}{Sumário}
-\tableofcontents
+%\addcontentsline{toc}{chapter}{Sumário}
+%\tableofcontents
 
 % Lista de figuras (gerada automaticamente)
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Lista de Figuras}
-\listoffigures
+%\cleardoublepage
+%\addcontentsline{toc}{chapter}{Lista de Figuras}
+%\listoffigures
 
 % Lista de tabelas (gerada automaticamente)
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Lista de Tabelas}
-\listoftables
+%\cleardoublepage
+%\addcontentsline{toc}{chapter}{Lista de Tabelas}
+%\listoftables
 
 % Glossário (gerado automaticamente - veja entradas em
 % tex/00-introducao/introducao.tex e em tex/02-estilo/estilo.tex)
-\cleardoublepage
-\renewcommand{\nomname}{Lista de Símbolos e Abreviaturas}
-\markboth{\MakeUppercase{\nomname}}{\MakeUppercase{\nomname}}
-\addcontentsline{toc}{chapter}{\nomname}
+%\cleardoublepage
+%\renewcommand{\nomname}{Lista de Símbolos e Abreviaturas}
+%\markboth{\MakeUppercase{\nomname}}{\MakeUppercase{\nomname}}
+%\addcontentsline{toc}{chapter}{\nomname}
 % O argumento opcional do comando \printnomenclature é a largura deixada
 % para os símbolos no glossário. Se seus símbolos são "largos", como
 % neste exemplo,  é melhor por mais espaço do que o 1cm que é reservado
 % por default
-\printnomenclature[1.5cm]
+%\printnomenclature[1.5cm]
 
 % Páginas do texto principal (com cabeçalho)
 \mainmatter
@@ -245,7 +245,7 @@
 % classificados por capítulos
 
 % Cap. 1 - Introdução
-%\include{tex/01-introducao/introducao}
+\include{tex/01-introducao/introducao}
 
 % Cap. 2 - Estilo
 %\include{tex/02-estilo/estilo}

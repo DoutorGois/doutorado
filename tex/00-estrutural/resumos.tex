@@ -14,54 +14,42 @@
 
 
 Para explicar a capacidade de navegar no espaço, Edward Tollman postulou a existência de um mapa cognitivo no cérebro.
-Desde então busca-se descrever os elementos cerebrais que participam na codificação dos supostos elementos necessários para promover tal capacidade.
-Ainda, demonstro a estabilidade do código de velocidade ao longo do tempo e espaço e de contextos.
-Demonstro que essa subpopulação possui característica inibitória: eles são inibitórios, apresentam alta frequencia de potenciais de ação e possuem formato de onda curto.
-Demonstro que os neurônios pijj 
-Caracterizo a natureza fenotípica dessa subpopulação neural através    
+As neurociências, desde então, busca descrever os elementos cerebrais que participam na codificação dos elementos necessários para promover tal capacidade.
+Neste projeto apresento os avanços realizados na caracterização de uma sub-população neural que participa na codificação da velocidade escalar do corpo do animal.
+Analisando banco de dados abertos descobri a existência do código de velocidade presente na taxa de emissão de potenciais de ação nos neurônios do hipocampo dorsal.
+Demonstrei que esse código independe da frequência de oscilação theta, que ele é estável ao longo do espaço e do tempo, e também é persistente a diferentes contextos.
+A classsificação dos neurônios através de formato do potencial de ação, taxa de emissão de potenciais de ação, e a dependencia temporal dos potenciais de ação entre neurônios me proveu fortes indícios que esse código neural é presente apenas nos neurônios inibitórios.
+Analisando os neurônios excitatórios na arena quadrada revelou que estes são modulados pela velocidade; o labirinto linear revelou a correlação de Pearson como um mal indíce de codificação de velocidade,os neurônios piramidais apresentaram uma acodificação espúria como subproduto de sua codificação do espaço.
+Empreguei um modelo não linear para resolver a natureza etologia da interdependencia estatística de espaço e velocidade; esta análise me confirmou a prevalência do código de velocidade nos interneurônios e confirmou a hipótese da codificação espúria.
+Os resultados preliminares desse projeto demonstraram que o código de velocidade está presente no hipocampo em uma subpopulação eletrofisiologicamente homogenea.
+O presente projeto termina com uma proposta de uma ferramenta para armazenar e compartilhar informações e dados de experimentos eletrofisiológicos.
+
+%Ainda, demonstro a estabilidade do código de velocidade ao longo do tempo e espaço e de contextos.
+%Demonstro que essa subpopulação possui característica inibitória: eles são inibitórios, apresentam alta frequencia de potenciais de ação e possuem formato de onda curto.
+%Demonstro que os neurônios pijj 
+%A doutrina neural põe o neurônio como a unidade básica do sistema nervoso central, que por sua vez é o sistema responsável pela coordenação do comportamento animal. Os neurônios possuem em sua membrana um complexo proteico que da a capacidade de excitação. Sabe-se que somos capazes de inferir o comportamento animal através de observer a taxa em que o neurônio alterna entre excitação e repouso. Nesse trabalho neurônios temos interesse analisar a entra
+%Navegação espacial é uma capacidade presente desde os artropodes até os humanos.
+%Teóricamente essa capacidade depende do cérebro ser capaz de construir uma representação de si e do espaço afim de construir uma memória de sequência.
+%O sistema mesolimbico foi demonstrado ser necessário para a expressão dessa capacidade.
 
 
-
-
-A doutrina neural põe o neurônio como a unidade básica do sistema nervoso central, que por sua vez é o sistema responsável pela coordenação do comportamento animal. Os neurônios possuem em sua membrana um complexo proteico que da a capacidade de excitação. Sabe-se que somos capazes de inferir o comportamento animal através de observer a taxa em que o neurônio alterna entre excitação e repouso. Nesse trabalho neurônios temos interesse analisar a entra
-
-Navegação espacial é uma capacidade presente desde os artropodes até os humanos.
-Teóricamente essa capacidade depende do cérebro ser capaz de construir uma representação de si e do espaço afim de construir uma memória de sequência.
-
-
-O sistema mesolimbico foi demonstrado ser necessário para a expressão dessa capacidade.
-
-
-
-
-O resumo deve apresentar ao leitor uma idéia compacta, mas clara do
-trabalho descrito na tese. A definição precisa e importância do
-problema abordado, os principais objetivos, motivações e desafios da
-pesquisa são bons pontos de partida para o resumo. A estratégia ou
-metodologia empregada na pesquisa, suas principais contribuições e os
-resultados mais importantes também devem fazer parte do resumo. Note
-que o resumo não deve ultrapassar uma página.
 
 \vspace{1.5ex}
 
-{\bf Palavras-chave}: Processamento de texto, \LaTeX,
-Preparação de Teses, Relatórios Técnicos.
-%
-% ********** Abstract
-%
+{\bf Palavras-chave}: Hipocampo, eletrofisiolgia, interneurônios, velocidade, comportamento.
 
 \mychapterast{Abstract}
-
-The abstract must present to the reader a short, but clear idea of the
-work being reported in the thesis. The precise definition and
-importance of the problem being addressed, the main objectives,
-motivations and challenges of the research are a good starting point
-for the abstract. The strategy or metodology employed in the research,
-its main contributions, and the most important results achieved may be
-part of the abstract as well. Notice that the
-abstract must not exceed one page.
+On the journey to explain the spatial navigation capability of animals, Edward Tollman postulated the existence of a cognitive brain map.
+The neurosciences thenceforth describe cerebral elements providers of the cognitive functions that promote this capability.
+The present project presents advancements made on the characterization of a neuronal population that represent the animal body linear velocity.
+Analyzing open database I found the existence of the speed code on the action potential emition rate of the dorsal hippocampal neurons.
+Furthermore, I demonstrated that this rate code is independent of local field theta oscillation; and the code is stable over space and time and persistent over contexts.
+The analyses of the waveform shape, action potential rate, and the temporal relatitonship of action potentials revealed the prevalence of the speed code on the rate of action potentials emited by inhibitory neurons.
+The latter finding contradicts the literature, deeper analysis revealed the interpenendence of the speed coding and spatial coding in principal neurons. Therefore, I hypothesized that speed coding in excitatory neurons is a by-product of the spatial coding.
+Simulated data of speed, conjuctive and spatial code proved me right, The space vs speed covariance is higher in linear rather than in square arena, this rose higher speed scores in linear arena. 
+To solve this ethologycal bias I utilized multivariate exponential mixture model that model simulated firing rate as a mixture of spatial and speed. The speed over space log-likellihood ratio is the metric I propose as a substitute of the current speed score.
+Applying this ratio metric in the real data I reinforce the inhibitory nature of speed coding in the dorsal hippocampus and I deny the excitatory one. However strong, I still need to investigate the conjuctive code of space and speed. Which shall be matter of investigation of the following days.
 
 \vspace{1.5ex}
 
-{\bf Keywords}: Document Processing, \LaTeX, Thesis Preparation,
-Technical Reports.
+{\bf Keywords}: Hippocampus, Interneurons, Speed coding, Spatial navigation, Speed cells.
