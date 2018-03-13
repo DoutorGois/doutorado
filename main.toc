@@ -1,4 +1,64 @@
 \select@language {brazil}
 \contentsline {chapter}{Sum\IeC {\'a}rio}{i}
-\contentsline {chapter}{Lista de Figuras}{iii}
+\contentsline {chapter}{Lista de Figuras}{iv}
 \contentsline {chapter}{Lista de Tabelas}{v}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {section}{\numberline {1.1}Os animais}{1}
+\contentsline {section}{\numberline {1.2}Navega\IeC {\c c}\IeC {\~a}o espacial}{2}
+\contentsline {subsection}{\numberline {1.2.1}Migra\IeC {\c c}\IeC {\~a}o}{2}
+\contentsline {subsection}{\numberline {1.2.2}Estrat\IeC {\'e}gias migrat\IeC {\'o}ria}{2}
+\contentsline {subsection}{\numberline {1.2.3}Mapas cognitivos}{2}
+\contentsline {section}{\numberline {1.3}Hipocampo e cogni\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {1.3.1}Mem\IeC {\'o}ria declarativa}{4}
+\contentsline {subsection}{\numberline {1.3.2}Estudos de les\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {1.3.3}Labirinto de Morris}{4}
+\contentsline {section}{\numberline {1.4}Eletrofisiologia}{4}
+\contentsline {subsection}{\numberline {1.4.1}Membrana celular}{4}
+\contentsline {subsection}{\numberline {1.4.2}Potencial de revers\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {1.4.3}Potencial de a\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {1.4.4}Potencial p\IeC {\'o}s-sinaptico}{4}
+\contentsline {subsection}{\numberline {1.4.5}Arquitetura hipocampal}{4}
+\contentsline {section}{\numberline {1.5}C\IeC {\'e}lulas de navega\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {1.5.1}C\IeC {\'e}lulas de lugar}{4}
+\contentsline {subsection}{\numberline {1.5.2}C\IeC {\'e}lulas de dire\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {subsection}{\numberline {1.5.3}C\IeC {\'e}lulas de fronteira}{4}
+\contentsline {subsection}{\numberline {1.5.4}C\IeC {\'e}lulas de grade}{4}
+\contentsline {subsection}{\numberline {1.5.5}C\IeC {\'e}lulas de velocidade}{4}
+\contentsline {chapter}{Lista de S\IeC {\'\i }mbolos e Abreviaturas}{1}
+\contentsline {chapter}{\numberline {2}Objetivos}{5}
+\contentsline {section}{\numberline {2.1}Gerais}{5}
+\contentsline {section}{\numberline {2.2}Espec\IeC {\'\i }ficos}{5}
+\contentsline {chapter}{\numberline {3}M\IeC {\'e}todos}{6}
+\contentsline {section}{\numberline {3.1}Dados abertos}{6}
+\contentsline {section}{\numberline {3.2}CRCNS/hc-3}{6}
+\contentsline {section}{\numberline {3.3}Sum\IeC {\'a}rio dos dados}{6}
+\contentsline {section}{\numberline {3.4}Pre-processamento}{6}
+\contentsline {section}{\numberline {3.5}C\IeC {\'o}digo de velocidade}{7}
+\contentsline {section}{\numberline {3.6}Modelos n\IeC {\~a}o-lineares}{7}
+\contentsline {chapter}{\numberline {4}Resultados}{8}
+\contentsline {section}{\numberline {4.1}C\IeC {\'o}digo de velocidade nos potenciais de a\IeC {\c c}\IeC {\~a}o do hipocampo}{9}
+\contentsline {section}{\numberline {4.2}C\IeC {\'o}digo de velocidade independe da oscila\IeC {\c c}\IeC {\~a}o Theta}{9}
+\contentsline {section}{\numberline {4.3}C\IeC {\'o}digo de velocidade \IeC {\'e} est\IeC {\'a}vel no tempo e no espa\IeC {\c c}o}{9}
+\contentsline {section}{\numberline {4.4}C\IeC {\'o}digo de velocidade \IeC {\'e} persistente nas tarefas}{9}
+\contentsline {section}{\numberline {4.5}Decodificador linear da velocidade pelos potenciais de a\IeC {\c c}\IeC {\~a}o}{9}
+\contentsline {section}{\numberline {4.6}C\IeC {\'o}digo de velocidade n\IeC {\~a}o \IeC {\'e} homogeneo nos neur\IeC {\^o}nios}{9}
+\contentsline {section}{\numberline {4.7}C\IeC {\'o}digo de velocidade \IeC {\'e} presente somente nos neur\IeC {\^o}nios inibit\IeC {\'o}rios}{9}
+\contentsline {section}{\numberline {4.8}Neur\IeC {\^o}nios excitat\IeC {\'o}rios s\IeC {\~a}o facilitados pela velocidade linear}{9}
+\contentsline {section}{\numberline {4.9}Neur\IeC {\^o}nios excitat\IeC {\'o}rios codificam velocidade na arena linear}{9}
+\contentsline {section}{\numberline {4.10}O campo receptivo de lugar se confunde com a sintona de velocidade}{9}
+\contentsline {section}{\numberline {4.11}Simula\IeC {\c c}\IeC {\~a}o mostra que a confus\IeC {\~a}o entre espa\IeC {\c c}o e velocidade \IeC {\'e} emp\IeC {\'\i }rica}{9}
+\contentsline {section}{\numberline {4.12}Mistura de modelos n\IeC {\~a}o lineares de m\IeC {\'u}ltiplas vari\IeC {\'a}veis resolve a confus\IeC {\~a}o}{9}
+\contentsline {section}{\numberline {4.13}O coeficiente de velocidade n\IeC {\~a}o \IeC {\'e} adequado para c\IeC {\'o}digo de velocidade}{9}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{10}
+\contentsline {section}{\numberline {5.1}C\IeC {\'e}lulas de velocidade s\IeC {\~a}o interneuronios}{10}
+\contentsline {section}{\numberline {5.2}Correla\IeC {\c c}\IeC {\~a}o de Pearson \IeC {\'e} uma m\IeC {\'e}trica inadequada}{10}
+\contentsline {section}{\numberline {5.3}Raz\IeC {\~a}o entre os c\IeC {\'o}digos de espa\IeC {\c c}o e velocidade \IeC {\'e} adequado}{10}
+\contentsline {chapter}{\numberline {6}Ideias}{11}
+\contentsline {section}{\numberline {6.1}Codifica\IeC {\c c}\IeC {\~a}o de velocidade}{11}
+\contentsline {section}{\numberline {6.2}Navega\IeC {\c c}\IeC {\~a}o e emo\IeC {\c c}\IeC {\~a}o}{11}
+\contentsline {section}{\numberline {6.3}Padroniza\IeC {\c c}\IeC {\~a}o de dados}{11}
+\contentsline {chapter}{\numberline {7}Cronograma}{12}
+\contentsline {section}{\numberline {7.1}Passado}{12}
+\contentsline {section}{\numberline {7.2}Futuro}{12}
+\contentsline {chapter}{Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{13}
+\contentsline {chapter}{\numberline {A}Informa\IeC {\c c}\IeC {\~o}es adicionais}{14}

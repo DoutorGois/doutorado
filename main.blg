@@ -3,8 +3,14 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: tex/00-estrutural/rosto.aux
 A level-1 auxiliary file: tex/00-estrutural/catalograficos.aux
-A level-1 auxiliary file: tex/00-estrutural/preambulo.aux
 A level-1 auxiliary file: tex/00-estrutural/resumos.aux
+A level-1 auxiliary file: tex/01-introducao/introducao.aux
+A level-1 auxiliary file: tex/02-objetivos/objetivos.aux
+A level-1 auxiliary file: tex/03-metodos/metodos.aux
+A level-1 auxiliary file: tex/04-resultados/resultados.aux
+A level-1 auxiliary file: tex/05-conclusao/conclusao.aux
+A level-1 auxiliary file: tex/06-ideias/ideias.aux
+A level-1 auxiliary file: tex/07-cronograma/cronograma.aux
 A level-1 auxiliary file: tex/xx-apendice/apendice.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -29,7 +35,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 1 entry,
             6714 wiz_defined-function locations,
-            1202 strings with 9479 characters,
+            1208 strings with 9654 characters,
 and the built_in function-call counts, 891 in all, are:
 = -- 192
 > -- 0

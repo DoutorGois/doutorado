@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.26)  8 MAR 2018 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.26)  9 MAR 2018 18:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -551,150 +551,457 @@ LaTeX Warning: You have requested package `lib/capitulos',
                but the package provides `capitulos'.
 
 Package: capitulos 1997/10/06 Chapter headers a la Bjarne Stroustrup
-) (./lib/comandos.tex)
-\@nomenclaturefile=\write3
-\openout3 = `main.nlo'.
-
-
-Writing nomenclature file main.nlo
-(./main.aux (./tex/01-introducao/introducao.aux))
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 175.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 175.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
-File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
-)
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen127
-\scratchbox=\box30
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen128
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks29
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2015/09/09 v2.1 Yet another Pygments shim for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
+\FV@CodeLineNo=\count108
+\FV@InFile=\read2
+\FV@TabBox=\box30
+\c@FancyVerbLine=\count109
+\FV@StepNumber=\count110
+\FV@OutFile=\write3
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks28
+\float@box=\box31
+\@float@everytoks=\toks29
+\@floatcapt=\box32
+) (/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
+)
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count112
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count113
+\decimalpart=\count114
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count115
+\output=\toks30
+\linenoprevgraf=\count116
+\linenumbersep=\dimen127
+\linenumberwidth=\dimen128
+\c@linenumber=\count117
+\c@pagewiselinenumber=\count118
+\c@LN@truepage=\count119
+\c@internallinenumber=\count120
+\c@internallinenumbers=\count121
+\quotelinenumbersep=\dimen129
+\bframerule=\dimen130
+\bframesep=\dimen131
+\bframebox=\box33
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\minted@appexistsfile=\read3
+\FV@BreakIndent=\dimen132
+\FV@BreakSymbolSepLeft=\dimen133
+\FV@BreakSymbolSepRight=\dimen134
+\FV@BreakSymbolIndentLeft=\dimen135
+\FV@BreakSymbolIndentRight=\dimen136
+\c@FancyVerbLineBreakLast=\count122
+\FV@LineBox=\box34
+\FV@LineIndentBox=\box35
+\minted@bgbox=\box36
+\minted@code=\write5
+\c@minted@FancyVerbLineTemp=\count123
+\@float@every@listing=\toks31
+\c@listing=\count124
+)
+runsystem(mkdir -p "_minted-main")...disabled (restricted).
+
+
+
+./main.tex:86: Package minted Error: You must invoke LaTeX with the -shell-escape flag.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \usepackage
+                {listings}
+Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for more information.
+
+runsystem(pygmentize -S default -f latex -P commandprefix=PYGdefault > "_minted-main/default.pygstyle")...disabled (restricted).
+
+
+./main.tex:86: Package minted Error: Missing Pygments output; \inputminted was
+probably given a file that does not exist--otherwise, you may need 
+the outputdir package option, or may be using an incompatible build tool.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \usepackage
+                {listings}^^M
+This could be caused by using -output-directory or -aux-directory 
+without setting minted's outputdir, or by using a build tool that 
+changes paths in ways minted cannot detect.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count125
+\lst@gtempboxa=\box37
+\lst@token=\toks32
+\lst@length=\count126
+\lst@currlwidth=\dimen137
+\lst@column=\count127
+\lst@pos=\count128
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count129
+\lst@lineno=\count130
+\lst@maxwidth=\dimen140
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count131
+\lst@skipnumbers=\count132
+\lst@framebox=\box38
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (./lib/comandos.tex)
+\@nomenclaturefile=\write6
+\openout6 = `main.nlo'.
+
+
+Writing nomenclature file main.nlo
+runsystem(which "pygmentize" && touch "main.aex")...disabled (restricted).
+
+
+./main.tex:207: Package minted Error: You must have `pygmentize' installed to use this package.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 \begin{document}
+                      
+Refer to the installation instructions in the minted documentation for more information.
+
+(./main.aux (./tex/00-estrutural/rosto.aux) (./tex/00-estrutural/catalograficos.aux) (./tex/00-estrutural/resumos.aux) (./tex/01-introducao/introducao.aux) (./tex/02-objetivos/objetivos.aux) (./tex/03-metodos/metodos.aux
+
+LaTeX Warning: Label `Sec:speedscore' multiply defined.
+
+) (./tex/04-resultados/resultados.aux) (./tex/05-conclusao/conclusao.aux) (./tex/06-ideias/ideias.aux) (./tex/07-cronograma/cronograma.aux) (./tex/xx-apendice/apendice.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 207.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 207.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen141
+\scratchbox=\box39
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen142
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+))
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+runsystem(pygmentize -S default -f latex -P commandprefix=PYG > "_minted-main/default-pyg-prefix.pygstyle")...disabled (restricted).
+
+
+
+./main.tex:207: Package minted Error: Missing Pygments output; \inputminted was
+probably given a file that does not exist--otherwise, you may need 
+the outputdir package option, or may be using an incompatible build tool.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 \begin{document}
+                      ^^M
+This could be caused by using -output-directory or -aux-directory 
+without setting minted's outputdir, or by using a build tool that 
+changes paths in ways minted cannot detect.
+
+\c@lstlisting=\count139
+\openout2 = `tex/00-estrutural/rosto.aux'.
+
+(./tex/00-estrutural/rosto.tex (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd) <tex/00-estrutural/figuras/UFRN.pdf, id=1, 319.1925pt x 131.49126pt> <use tex/00-estrutural/figuras/UFRN.pdf> <tex/00-estrutural/figuras/Ice.png, id=2, 221.1462pt x 163.3302pt> <use tex/00-estrutural/figuras/Ice.png> <use tex/00-estrutural/figuras/UFRN.pdf> <use tex/00-estrutural/figuras/Ice.png>
+File: tex/00-estrutural/figuras/UFRN.pdf Graphic file (type pdf)
+ <use tex/00-estrutural/figuras/UFRN.pdf>
+Package pdftex.def Info: tex/00-estrutural/figuras/UFRN.pdf used on input line 29.
+(pdftex.def)             Requested size: 85.35826pt x 35.16202pt.
+File: tex/00-estrutural/figuras/Ice.png Graphic file (type png)
+ <use tex/00-estrutural/figuras/Ice.png>
+Package pdftex.def Info: tex/00-estrutural/figuras/Ice.png used on input line 29.
+(pdftex.def)             Requested size: 85.35826pt x 63.04306pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 57.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+ [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./tex/00-estrutural/figuras/UFRN.pdf> <./tex/00-estrutural/figuras/Ice.png>])
+\openout2 = `tex/00-estrutural/catalograficos.aux'.
+
+ (./tex/00-estrutural/catalograficos.tex) [1
+
+
+]
+\openout2 = `tex/00-estrutural/resumos.aux'.
+
+ (./tex/00-estrutural/resumos.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
+ [2
+
+
+
+]) [3
+
+] (./main.toc [1
+
+
+
+] [2])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+ [3] (./main.lof)
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+ [4
+
+
+] (./main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+ [5
+
+
+]
+No file main.nls.
 \openout2 = `tex/01-introducao/introducao.aux'.
 
- (./tex/01-introducao/introducao.tex
+(./tex/01-introducao/introducao.tex
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
 [1
 
 
 
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 95.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
-File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 95.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
-File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 95.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
-File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
  [2]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 123.
+Overfull \hbox (4.43417pt too wide) in paragraph at lines 75--88
+[]\T1/ptm/m/n/12 Formigas mi-gra ca-pa-ci-dade de ex-pe-ri-ên-cias vi-vi-das nesse Op-ção dos pa-drões do mundo
+ []
+
+) [3] [4]
+\openout2 = `tex/02-objetivos/objetivos.aux'.
+
+ (./tex/02-objetivos/objetivos.tex
+Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 19.
+) [5
+
+
+
+]
+\openout2 = `tex/03-metodos/metodos.aux'.
+
+ (./tex/03-metodos/metodos.tex
+Cap\'{\i }tulo 3.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+[6
 
 
-LaTeX Warning: Reference `Cap:estilo' on page 3 undefined on input line 148.
+
+]
+\openout3 = `main.pyg'.
+
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o "_minted-main/6AF0267178EA8678C259D74EBC7850B47BC9F1650E5147204109012551E408CD.pygtex" "main.pyg" )...disabled (restricted).
 
 
-LaTeX Warning: Reference `Cap:matematica' on page 3 undefined on input line 149.
+
+./tex/03-metodos/metodos.tex:62: Package minted Error: Missing Pygments output; \inputminted was
+probably given a file that does not exist--otherwise, you may need 
+the outputdir package option, or may be using an incompatible build tool.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \end{minted}
+                 
+This could be caused by using -output-directory or -aux-directory 
+without setting minted's outputdir, or by using a build tool that 
+changes paths in ways minted cannot detect.
 
 
-LaTeX Warning: Reference `Cap:figuras' on page 3 undefined on input line 151.
+./tex/03-metodos/metodos.tex:62: LaTeX Error: Undefined color `cyan!10'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \end{minted}
+                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [7]
+\openout2 = `tex/04-resultados/resultados.aux'.
+
+ (./tex/04-resultados/resultados.tex
+Cap\'{\i }tulo 4.
+) [8
 
 
-LaTeX Warning: Reference `Cap:conclusao' on page 3 undefined on input line 153.
 
-) [3] (./main.aux (./tex/01-introducao/introducao.aux))
+]
+Overfull \vbox (280.83812pt too high) has occurred while \output is active []
 
-LaTeX Warning: There were undefined references.
+ [9]
+\openout2 = `tex/05-conclusao/conclusao.aux'.
+
+ (./tex/05-conclusao/conclusao.tex
+Cap\'{\i }tulo 5.
+) [10
+
+
+
+]
+\openout2 = `tex/06-ideias/ideias.aux'.
+
+ (./tex/06-ideias/ideias.tex
+Cap\'{\i }tulo 6.
+) [11
+
+
+
+]
+\openout2 = `tex/07-cronograma/cronograma.aux'.
+
+ (./tex/07-cronograma/cronograma.tex
+Cap\'{\i }tulo 7.
+) [12
+
+
+
+] (./main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
+
+) [13
+
+
+]
+\openout2 = `tex/xx-apendice/apendice.aux'.
+
+ (./tex/xx-apendice/apendice.tex
+Ap\^endice A.
+) [14
+
+
+]
+runsystem(rm "main.pyg")...disabled (restricted).
+
+ (./main.aux (./tex/00-estrutural/rosto.aux) (./tex/00-estrutural/catalograficos.aux) (./tex/00-estrutural/resumos.aux) (./tex/01-introducao/introducao.aux) (./tex/02-objetivos/objetivos.aux) (./tex/03-metodos/metodos.aux) (./tex/04-resultados/resultados.aux) (./tex/05-conclusao/conclusao.aux) (./tex/06-ideias/ideias.aux) (./tex/07-cronograma/cronograma.aux) (./tex/xx-apendice/apendice.aux))
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4271 strings out of 493029
- 55472 string characters out of 6136234
- 123592 words of memory out of 5000000
- 7653 multiletter control sequences out of 15000+600000
- 55526 words of font info for 76 fonts, out of 8000000 for 9000
+ 8371 strings out of 493029
+ 124285 string characters out of 6136234
+ 288572 words of memory out of 5000000
+ 11591 multiletter control sequences out of 15000+600000
+ 77538 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,26p,664b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 65190 bytes).
+ 37i,12n,40p,517b,1764s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (23 pages, 132154 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

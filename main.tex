@@ -17,11 +17,11 @@
 % papel A4, letra grande (12pt), openright (capítulos só iniciam em
 % página direita, se necessário incluindo uma página em branco),
 % twoside (o documento vai ser impresso em frente e costa)
-\documentclass[a4paper,12pt,openright,twoside]{book}
+%\documentclass[a4paper,12pt,openright,twoside]{book}
 % PARA A QUALIFICAÇÃO E PARA A VERSÃO INICIAL:
 % papel A4, letra grande (12pt), openany (capítulos iniciam em
 % qualquer página), oneside (o documento vai ser impresso só na frente)
-%\documentclass[a4paper,12pt,openany,oneside]{book}
+\documentclass[a4paper,12pt,openany,oneside]{book}
 
 % PACOTES OBRIGATÓRIOS
 
@@ -80,6 +80,38 @@
 %\usepackage{listings}
 % Capítulos com títulos em um formato "decorado"
 \usepackage{lib/capitulos}
+
+
+\usepackage{minted}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{language=Python,                
+	basicstyle=\footnotesize,           
+	numbers=left,                  
+	numberstyle=\tiny\color{gray},  
+	stepnumber=2,                             
+	numbersep=5pt,                  
+	backgroundcolor=\color{white},    
+	showspaces=false,               
+	showstringspaces=false,         
+	showtabs=false,                 
+	frame=single,                   
+	rulecolor=\color{black},        
+	tabsize=2,                      
+	captionpos=b,                   
+	breaklines=true,                
+	breakatwhitespace=false,        
+	title=\lstname,                               
+	keywordstyle=\color{blue},          
+	commentstyle=\color{dkgreen},       
+	stringstyle=\color{mauve},     
+}
+
 
 % NOVOS COMANDOS
 
@@ -143,10 +175,8 @@
 %
 % O espaçamento entre linhas
 %
-
 % As páginas iniciais são sempre em espaçamento simples
 \singlespacing
-
 % Para a criação do glossário (ou lista de símbolos)
 \makenomenclature
 
@@ -178,14 +208,14 @@
 \pagestyle{empty}
 
 % Página de rosto (capa interna)
-%\include{tex/00-estrutural/rosto}
+\include{tex/00-estrutural/rosto}
 
 % Ficha catalográfica: os dados catalográficos devem ser fornecidos
 % pela BCZM.
 % Só são incluídos na versão final da tese ou dissertação. Não são
 % incluídos nem na proposta de tema de qualificação nem na versão
 % preliminar da tese ou dissertação: nestes casos, comente a próxima linha.
-%\include{tex/00-estrutural/catalograficos}
+\include{tex/00-estrutural/catalograficos}
 
 % Assinaturas da banca, dedicatória e agradecimentos
 % Só são incluídos na versão final da tese ou dissertação. Não são
@@ -199,42 +229,42 @@
 
 % PARA A VERSÃO FINAL:
 % Deve ser usado espaçamento simples nas páginas de texto
-\singlespacing
+%\singlespacing
 % PARA A QUALIFICAÇÃO E PARA A VERSÃO INICIAL:
 % Deve ser usado espaçamento 1 1/2 nas páginas de texto
-%\onehalfspacing
+\onehalfspacing
 
 % Resumo/Abstract
-%\include{tex/00-estrutural/resumos}
+\include{tex/00-estrutural/resumos}
 
 % Paginas introdutórias (com numeração romana)
 \frontmatter
 
 % Lista de conteúdo (sumário, gerado automaticamente)
-%\addcontentsline{toc}{chapter}{Sumário}
-%\tableofcontents
+\addcontentsline{toc}{chapter}{Sumário}
+\tableofcontents
 
 % Lista de figuras (gerada automaticamente)
-%\cleardoublepage
-%\addcontentsline{toc}{chapter}{Lista de Figuras}
-%\listoffigures
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de Figuras}
+\listoffigures
 
 % Lista de tabelas (gerada automaticamente)
-%\cleardoublepage
-%\addcontentsline{toc}{chapter}{Lista de Tabelas}
-%\listoftables
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de Tabelas}
+\listoftables
 
-% Glossário (gerado automaticamente - veja entradas em
-% tex/00-introducao/introducao.tex e em tex/02-estilo/estilo.tex)
-%\cleardoublepage
-%\renewcommand{\nomname}{Lista de Símbolos e Abreviaturas}
-%\markboth{\MakeUppercase{\nomname}}{\MakeUppercase{\nomname}}
-%\addcontentsline{toc}{chapter}{\nomname}
+% Glossário (gerado automaticamente - veja entradas em tex/00-introducao/introducao.tex e em tex/02-estilo/estilo.tex)
+\cleardoublepage
+\renewcommand{\nomname}{Lista de Símbolos e Abreviaturas}
+\markboth{\MakeUppercase{\nomname}}{\MakeUppercase{\nomname}}
+\addcontentsline{toc}{chapter}{\nomname}
+
 % O argumento opcional do comando \printnomenclature é a largura deixada
 % para os símbolos no glossário. Se seus símbolos são "largos", como
 % neste exemplo,  é melhor por mais espaço do que o 1cm que é reservado
 % por default
-%\printnomenclature[1.5cm]
+\printnomenclature[1.5cm]
 
 % Páginas do texto principal (com cabeçalho)
 \mainmatter
@@ -246,6 +276,24 @@
 
 % Cap. 1 - Introdução
 \include{tex/01-introducao/introducao}
+
+% Cap. 2 - Objetivos
+\include{tex/02-objetivos/objetivos}
+
+% Cap. 3 - Metodos
+\include{tex/03-metodos/metodos}
+
+% Cap. 4 - Resultados
+\include{tex/04-resultados/resultados}
+
+% Cap. 5 - Conclusao
+\include{tex/05-conclusao/conclusao}
+
+% Cap. 6 - Ideias
+\include{tex/06-ideias/ideias}
+
+% Cap. 7 - Cronograma
+\include{tex/07-cronograma/cronograma}
 
 % Cap. 2 - Estilo
 %\include{tex/02-estilo/estilo}
@@ -261,11 +309,11 @@
 
 % Referências bibliogáficas (geradas automaticamente)
 \addcontentsline{toc}{chapter}{Referências bibliográficas}
-%\bibliography{bib/bibliografia}
+\bibliography{bib/bibliografia}
 
 \appendix
 
 %Apêndice A
-%\include{tex/xx-apendice/apendice}
+\include{tex/xx-apendice/apendice}
 
 \end{document}
