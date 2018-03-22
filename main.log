@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.26)  9 MAR 2018 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.26)  14 MAR 2018 22:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -704,13 +704,13 @@ Writing nomenclature file main.nlo
 runsystem(which "pygmentize" && touch "main.aex")...disabled (restricted).
 
 
-./main.tex:207: Package minted Error: You must have `pygmentize' installed to use this package.
+./main.tex:205: Package minted Error: You must have `pygmentize' installed to use this package.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 \begin{document}
+l.205 \begin{document}
                       
 Refer to the installation instructions in the minted documentation for more information.
 
@@ -721,22 +721,22 @@ LaTeX Warning: Label `Sec:speedscore' multiply defined.
 ) (./tex/04-resultados/resultados.aux) (./tex/05-conclusao/conclusao.aux) (./tex/06-ideias/ideias.aux) (./tex/07-cronograma/cronograma.aux) (./tex/xx-apendice/apendice.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 207.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 207.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 205.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 205.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count133
@@ -767,7 +767,7 @@ runsystem(pygmentize -S default -f latex -P commandprefix=PYG > "_minted-main/de
 
 
 
-./main.tex:207: Package minted Error: Missing Pygments output; \inputminted was
+./main.tex:205: Package minted Error: Missing Pygments output; \inputminted was
 probably given a file that does not exist--otherwise, you may need 
 the outputdir package option, or may be using an incompatible build tool.
 
@@ -775,7 +775,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 \begin{document}
+l.205 \begin{document}
                       ^^M
 This could be caused by using -output-directory or -aux-directory 
 without setting minted's outputdir, or by using a build tool that 
@@ -864,18 +864,18 @@ Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
  [2]
-Overfull \hbox (4.43417pt too wide) in paragraph at lines 75--88
+Overfull \hbox (4.43417pt too wide) in paragraph at lines 74--87
 []\T1/ptm/m/n/12 Formigas mi-gra ca-pa-ci-dade de ex-pe-ri-ên-cias vi-vi-das nesse Op-ção dos pa-drões do mundo
  []
 
-) [3] [4]
+[3] [4] [5]) [6]
 \openout2 = `tex/02-objetivos/objetivos.aux'.
 
  (./tex/02-objetivos/objetivos.tex
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 19.
-) [5
+) [7
 
 
 
@@ -890,7 +890,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
-[6
+[8
 
 
 
@@ -927,24 +927,24 @@ l.62 \end{minted}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [7]
+) [9]
 \openout2 = `tex/04-resultados/resultados.aux'.
 
  (./tex/04-resultados/resultados.tex
 Cap\'{\i }tulo 4.
-) [8
+) [10
 
 
 
 ]
 Overfull \vbox (280.83812pt too high) has occurred while \output is active []
 
- [9]
+ [11]
 \openout2 = `tex/05-conclusao/conclusao.aux'.
 
  (./tex/05-conclusao/conclusao.tex
 Cap\'{\i }tulo 5.
-) [10
+) [12
 
 
 
@@ -953,7 +953,7 @@ Cap\'{\i }tulo 5.
 
  (./tex/06-ideias/ideias.tex
 Cap\'{\i }tulo 6.
-) [11
+) [13
 
 
 
@@ -962,15 +962,11 @@ Cap\'{\i }tulo 6.
 
  (./tex/07-cronograma/cronograma.tex
 Cap\'{\i }tulo 7.
-) [12
+) [14
 
 
 
-] (./main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
-) [13
+] (./main.bbl) [15
 
 
 ]
@@ -978,7 +974,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
  (./tex/xx-apendice/apendice.tex
 Ap\^endice A.
-) [14
+) [16
 
 
 ]
@@ -990,18 +986,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8371 strings out of 493029
- 124285 string characters out of 6136234
- 288572 words of memory out of 5000000
- 11591 multiletter control sequences out of 15000+600000
- 77538 words of font info for 102 fonts, out of 8000000 for 9000
+ 8361 strings out of 493029
+ 124165 string characters out of 6136234
+ 296572 words of memory out of 5000000
+ 11577 multiletter control sequences out of 15000+600000
+ 79663 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,12n,40p,517b,1764s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (23 pages, 132154 bytes).
+ 37i,12n,40p,517b,1746s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (25 pages, 148332 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
